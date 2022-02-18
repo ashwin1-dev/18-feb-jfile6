@@ -13,7 +13,7 @@ pipeline {
          
          stage('start the service') {
              steps{
-                 sh 'sudo  mkdir /var/www/html '
+                // sh 'sudo  mkdir /var/www/html '
              sh 'sudo systemctl start httpd'
                   }
                                      }
